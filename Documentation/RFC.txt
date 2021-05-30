@@ -1,0 +1,40 @@
+R-Type Working Group            M. Brocher
+                                Epitech
+Category: Standards Track       November 2019
+
+
+Table of Contents
+
+M. Brocher      Standard Tracks      [Page 1]
+
+Internet-Draft     Video Game UDP Protocol     November 2019
+
+         +--------+
+    +--> | SERVER | <---+
+    |    +--------+     |
+   input      |       input
+    |      Entities     |
+    |         |         |
++--------+    |    +--------+
+| CLIENT | <--+--> | CLIENT |
++--------+         +--------+
+
+
+M. Brocher      Standard Tracks      [Page 2]
+
+
+Internet-Draft     Video Game UDP Protocol     November 2019
+
+Mael Brocher
+Email: mael.brocher@epitech.eu
+
+Julien Fiant
+Email: julien.fiant@epitech.eu
+
+Florian Chavagnieux
+Email: florian.chavagnieux@epitech.eu
+
+Maxime Soccodato
+Email: maxime.soccodato@epitech.eu
+
+M. Brocher      Standard Tracks     [Page 3]

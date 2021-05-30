@@ -1,0 +1,52 @@
+{
+ "profile_host": "[settings]\narch=x86_64\narch_build=x86_64\nbuild_type=Release\ncompiler=gcc\ncompiler.libcxx=libstdc++11\ncompiler.version=8\nos=Linux\nos_build=Linux\n[options]\n[build_requires]\n[env]\n",
+ "graph_lock": {
+  "nodes": {
+   "0479d72a-175a-11ea-a207-f859719d0af3": {
+    "pref": "zlib/1.2.11@conan/stable#0:1d877a3df840030e6a8abb74c5ffb9088d08b47a#0",
+    "options": "fPIC=True\nminizip=False\nshared=False"
+   },
+   "0479d982-175a-11ea-a207-f859719d0af3": {
+    "pref": "bzip2/1.0.6@conan/stable#0:a5875aed3fc7ae8dd0488f7e5e99acbc480d721d#0",
+    "options": "build_executable=True\nfPIC=True\nshared=False"
+   },
+   "0479defa-175a-11ea-a207-f859719d0af3": {
+    "pref": "freetype/2.9.0@bincrafters/stable#0:876d4331adf573973aca1cbdf6614fdd41b8c51e#0",
+    "options": "fPIC=True\nshared=False\nwith_bzip2=True\nwith_png=True\nwith_zlib=True\nbzip2:build_executable=True\nbzip2:fPIC=True\nbzip2:shared=False\nlibpng:fPIC=True\nlibpng:shared=False\nzlib:fPIC=True\nzlib:minizip=False\nzlib:shared=False",
+    "requires": {
+     "libpng/1.6.34@bincrafters/stable#0": "0479da90-175a-11ea-a207-f859719d0af3",
+     "zlib/1.2.11@conan/stable#0": "0479d72a-175a-11ea-a207-f859719d0af3",
+     "bzip2/1.0.6@conan/stable#0": "0479d982-175a-11ea-a207-f859719d0af3"
+    }
+   },
+   "0479da90-175a-11ea-a207-f859719d0af3": {
+    "pref": "libpng/1.6.34@bincrafters/stable#0:4f75e4b120320a9fb6ac0012242d9ac95d18b6f6#0",
+    "options": "fPIC=True\nshared=False\nzlib:fPIC=True\nzlib:minizip=False\nzlib:shared=False",
+    "requires": {
+     "zlib/1.2.11@conan/stable#0": "0479d72a-175a-11ea-a207-f859719d0af3"
+    }
+   },
+   "0479e170-175a-11ea-a207-f859719d0af3": {
+    "pref": "stb/20180214@conan/stable#0:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9#0",
+    "options": ""
+   },
+   "0479e3c8-175a-11ea-a207-f859719d0af3": {
+    "pref": "sfml/2.5.1@bincrafters/stable#0:e654671395de6aff4d6d7c3954448cf93756e7db#0",
+    "options": "audio=False\nfPIC=True\ngraphics=True\nnetwork=False\nshared=False\nwindow=True\nbzip2:build_executable=True\nbzip2:fPIC=True\nbzip2:shared=False\nfreetype:fPIC=True\nfreetype:shared=False\nfreetype:with_bzip2=True\nfreetype:with_png=True\nfreetype:with_zlib=True\nlibpng:fPIC=True\nlibpng:shared=False\nzlib:fPIC=True\nzlib:minizip=False\nzlib:shared=False",
+    "requires": {
+     "freetype/2.9.0@bincrafters/stable#0": "0479defa-175a-11ea-a207-f859719d0af3",
+     "stb/20180214@conan/stable#0": "0479e170-175a-11ea-a207-f859719d0af3"
+    }
+   },
+   "0479e5da-175a-11ea-a207-f859719d0af3": {
+    "pref": null,
+    "options": "bzip2:build_executable=True\nbzip2:fPIC=True\nbzip2:shared=False\nfreetype:fPIC=True\nfreetype:shared=False\nfreetype:with_bzip2=True\nfreetype:with_png=True\nfreetype:with_zlib=True\nlibpng:fPIC=True\nlibpng:shared=False\nsfml:audio=False\nsfml:fPIC=True\nsfml:graphics=True\nsfml:network=False\nsfml:shared=False\nsfml:window=True\nzlib:fPIC=True\nzlib:minizip=False\nzlib:shared=False",
+    "requires": {
+     "sfml/2.5.1@bincrafters/stable#0": "0479e3c8-175a-11ea-a207-f859719d0af3"
+    },
+    "path": "/home/Julien/Epitech/TEK3/CPP/CPP_rtype_2019/conanfile.txt"
+   }
+  }
+ },
+ "version": "0.1"
+}
